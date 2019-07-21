@@ -1,0 +1,9 @@
+#regarding redux
+
+1.provider needs a store.
+2.store holds the whole tree of the state of your application.
+3.to create a store , we will use a function
+const store = createStore(reducer,[preloadedState], [enhancer]);
+
+4.To use createStore(), applyMiddleware(enhancer) , you have to import these method from
+redux.
